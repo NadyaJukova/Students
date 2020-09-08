@@ -4,11 +4,15 @@ using System.Text;
 
 namespace GitTest
 {
-    class ClassAdress
+    class ClassAdress : IDrawable
     {
         public string Id { get; set; }
         public string City { get; set; }
-        public string Street { get; set; }
+       
+        public void Draw()
+        {
+            Console.WriteLine($"Class:User. Value:ID:{this.Id},Name:{this.City}");
+        }
 
     }
 
