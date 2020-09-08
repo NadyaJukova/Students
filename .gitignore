@@ -1,2 +1,5 @@
 /bin
 /obj
+/GitTest/GitTest/obj
+/.vs
+/GitTest/.vs/GitTest/DesignTimeBuild
